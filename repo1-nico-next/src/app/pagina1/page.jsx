@@ -1,8 +1,15 @@
-import React from 'react'
+"use client"
+import { Container } from 'react-bootstrap'
+import IndividualIntervalsExample from '../components/sliderPagina'
 
 function page() {
   return (
-    <div>page</div>
+  <div>
+    <IndividualIntervalsExample/>
+    <Container>
+      
+    </Container>
+    </div>
   )
 }
 

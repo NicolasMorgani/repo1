@@ -9,7 +9,8 @@ function NavScrollExample() {
   return (
     <Navbar  bg="dark" variant="dark" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="/">NiquitoMorgani</Navbar.Brand>
+        
+      <Link href="/" style={{textDecoration:"none"}}> <Navbar.Brand >OperacionRosario</Navbar.Brand></Link>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -17,9 +18,9 @@ function NavScrollExample() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-           <Link href="/" className='nav-link' >HOME</Link>
-           <Link href="/pagina1" className='nav-link' >pagina1</Link>
-           <Link href="/pagina1" className='nav-link' >pagina2</Link>
+           <Link href="/pagina1" className='nav-link' >Pagina1</Link>
+           <Link href="/pagina2" className='nav-link' >pagina2</Link>
+           
           </Nav>
 
         </Navbar.Collapse>
