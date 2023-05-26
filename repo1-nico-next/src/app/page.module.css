@@ -1,22 +1,24 @@
 .container {
-  position: relative;
-  height: 100vh;
-  background-image: url('/hud3.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+background-image: url("/hud1.png");
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+margin: 0px;
+padding: 0px;
 }
 
 .container h1 {
+  
   color: #ffffff;
+  font-family: cursive; 
+  font-size: 20px ;
+
 }
 
 .container p {
   color: #ffffff;
+}
+.fondonegro{
+  background-color: black;
 }
 

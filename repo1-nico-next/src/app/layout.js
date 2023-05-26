@@ -3,6 +3,7 @@
 import { Inter } from 'next/font/google'
 import NavScrollExample from './components/navbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './components/Footer';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,7 +20,7 @@ export default function RootLayout({ children }) {
        
         {children}
       
-        
+        <Footer/>
         </body>
     </html>
   )

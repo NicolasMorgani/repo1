@@ -7,8 +7,9 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function NavScrollExample() {
   return (
-    <Navbar  bg="dark" variant="dark" expand="lg">
-      <Container fluid>
+    
+    <Navbar  style={{backgroundColor:"black"}} variant="dark" expand="lg">
+      <Container >
         
       <Link href="/" style={{textDecoration:"none"}}> <Navbar.Brand >OperacionRosario</Navbar.Brand></Link>
         <Navbar.Toggle aria-controls="navbarScroll" />
