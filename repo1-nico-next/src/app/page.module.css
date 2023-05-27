@@ -9,9 +9,15 @@ padding: 0px;
 
 .container h1 {
   
-  color: #ffffff;
+  color: #0deff7;
   font-family: cursive; 
   font-size: 20px ;
+
+}
+.textohero{
+  color: #ffffff;
+  font-size: 70px;
+  font-family:monospace;
 
 }
 
@@ -20,5 +26,45 @@ padding: 0px;
 }
 .fondonegro{
   background-color: black;
+}
+.containerp1{
+  background-image: url("/hud3.png");
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+margin: 0px;
+padding: 0px;
+}
+.containerp2{
+  background-image: url("/fondop2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  margin: 0px;
+  padding: 0px;
+}
+.neon-text {
+  background: linear-gradient(45deg, #ff00ff, #00ffff, #ff00ff);
+  background-size: 200% 200%;
+  animation: neonGradient 5s ease infinite;
+  -webkit-backgroundclip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes neonGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@media (max-width:700px) and (min-width:500px) {
+  .textohero {
+     font-size: 50px;
+  }
 }
 

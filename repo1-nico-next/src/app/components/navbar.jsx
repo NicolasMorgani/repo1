@@ -19,8 +19,8 @@ function NavScrollExample() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-           <Link href="/pagina1" className='nav-link' >Pagina1</Link>
-           <Link href="/pagina2" className='nav-link' >pagina2</Link>
+           <Link href="/pagina1" className='nav-link' >Contenido</Link>
+           <Link href="/pagina2" className='nav-link' >Desarrollo</Link>
            
           </Nav>
 

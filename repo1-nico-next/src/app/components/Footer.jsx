@@ -10,10 +10,10 @@ function Footer() {
             <Container fluid style={{backgroundColor:"black"}}>
                 
                 <Row style={{padding:"30px 40px"}}>
-                    <Col>
+                    <Col >
 
-                        <h2>Operacion Rosario</h2>
-                        <p style={{ color: "blue", fontFamily: "cursive" }}>Contenido Desarrollado por NicoMorgani /  
+                        <h2 style={{color:"lightyellow"}}>Operacion Rosario</h2>
+                        <p style={{ color: "lightblue", fontFamily: "cursive" }}>Contenido Desarrollado por NicoMorgani /  
                          <Image
                         src="/githubb.png"
                         width={40}
@@ -31,9 +31,11 @@ function Footer() {
                         alt="playstore"
                         
                     />
+                    
+
                   </Col>
                 </Row>
-                <Row style={{color:"black",height:"100px"}}>
+                <Row style={{color:"black",height:"40px"}}>
 
                 </Row>
                 
