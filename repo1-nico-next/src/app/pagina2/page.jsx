@@ -53,10 +53,10 @@ function page() {
                 <Card border="info" style={{ width: '20rem', backgroundColor: "black" }}>
                   <Card.Img variant="top"  src="quiz10.jpg" />
                   <Card.Body >
-                    <Card.Title style={{ color:"#0deff7",fontFamily: "cursive" }}>Digital e Interactivo</Card.Title>
+                    <Card.Title style={{ color:"#0deff7",fontFamily: "cursive" }}>Casos de Uso</Card.Title>
                     <Card.Text style={{color:"white"}}>
-                      Descargate y experimenta con la App distintas modalidades de juego
-                      con en una experiencia totalmente digital e interactiva sobre las Islas Malvinas
+                      Metodologias agiles para las actualizaciones y los contenidos dinamicos escalables 
+                      en varios sistemas operativos
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -65,10 +65,10 @@ function page() {
                 <Card border="info" style={{ width: '20rem', backgroundColor: "black" }}>
                   <Card.Img variant="top" src="quiz12.jpg" />
                   <Card.Body>
-                    <Card.Title style={{color:"#0deff7",fontFamily: "cursive"}}>Didactico e Intuitivo</Card.Title>
+                    <Card.Title style={{color:"#0deff7",fontFamily: "cursive"}}>Testing</Card.Title>
                     <Card.Text style={{color:"white"}}>
-                      Descubre acontecimientos que ocurrieron desde los
-                      inicios hasta los tiempos actuales y explora los dias del conflicto de 1982
+                     Producto testiado en la plataforma para varios dispositivos y distintas resoluciones siendo
+                     totalmente responsivo y adaptativo
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -77,10 +77,10 @@ function page() {
                 <Card border="info" style={{ width: '20rem', backgroundColor: "black" }}>
                   <Card.Img variant="top" src="c4.jpg" />
                   <Card.Body>
-                    <Card.Title style={{color:"#0deff7",fontFamily: "cursive"}} >Didactico e Intuitivo</Card.Title>
+                    <Card.Title style={{color:"#0deff7",fontFamily: "cursive"}} >Jugabilidad e interacciones</Card.Title>
                     <Card.Text style={{color:"white"}}>
-                      Descubre acontecimientos que ocurrieron desde los
-                      inicios hasta los tiempos actuales y explora los dias del conflicto de 1982
+                      Intuitiva y dinamica la experiencia con el usuario y el recorrido a travez de las 
+                      distintas modalidades de juego y contenidos
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -89,10 +89,10 @@ function page() {
                 <Card border="info" style={{ width: '20rem', backgroundColor: "black" }}>
                   <Card.Img variant="top" src="menuu.jpg" />
                   <Card.Body>
-                    <Card.Title style={{color:"#0deff7",fontFamily: "cursive"}}>Didactico e Intuitivo</Card.Title>
+                    <Card.Title style={{color:"#0deff7",fontFamily: "cursive"}}>Seguro y Confiable</Card.Title>
                     <Card.Text style={{color:"white"}}>
-                      Descubre acontecimientos que ocurrieron desde los
-                      inicios hasta los tiempos actuales y explora los dias del conflicto de 1982
+                      App desarrolla bajos los standares de seguridad y proteccion de Datos sin conexion a bases de Datosni ficheros externos
+                      todo el contenido esta en esta App.
                     </Card.Text>
                   </Card.Body>
                 </Card>
