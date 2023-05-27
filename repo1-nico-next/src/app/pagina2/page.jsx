@@ -12,7 +12,7 @@ function page() {
     <div className={styles.containerp2}>
       <Container fuid >
           <Row>
-            <Col style={{ display: "flex" }}  >
+            <Col style={{ display: "flex" }} data-aos="fade-up-right"  >
               <Card border="info" style={{ margin: 50, width: '50rem',background:"none"  }} >
                 <Card.Body>
                   <h1 style={{color:"#0deff7",fontFamily: "cursive",}}>Jugabilidad</h1>
@@ -32,7 +32,7 @@ function page() {
 
           
           <Row >
-            <Col style={{ display: "flex", justifyContent: "center" }}>
+            <Col style={{ display: "flex", justifyContent: "center" }}data-aos="zoom-in">
             
             <Card border="info" style={{ width: '25rem',background:"none" }}>
         <Card.Body style={{margin:0,padding:0}}>
@@ -43,13 +43,14 @@ function page() {
 
             </Col>
           </Row>
-          <Row>
+          <Row data-aos="fade-up"
+     data-aos-anchor-placement="bottom-center">
             <HeaderAndFooterExample />
           </Row>
           
           <Container style={{marginTop:"40px"}}>
             <Row xs={1} md={2} className="g-5">
-              <Col style={{ display: "flex", justifyContent: "center" }}>
+              <Col style={{ display: "flex", justifyContent: "center" }}data-aos="zoom-out-right">
                 <Card border="info" style={{ width: '20rem', backgroundColor: "black" }}>
                   <Card.Img variant="top"  src="quiz10.jpg" />
                   <Card.Body >
@@ -61,19 +62,19 @@ function page() {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col style={{ display: "flex", justifyContent: "center" }}>
+              <Col style={{ display: "flex", justifyContent: "center" }}data-aos="zoom-out-left">
                 <Card border="info" style={{ width: '20rem', backgroundColor: "black" }}>
                   <Card.Img variant="top" src="quiz12.jpg" />
                   <Card.Body>
                     <Card.Title style={{color:"#0deff7",fontFamily: "cursive"}}>Testing</Card.Title>
                     <Card.Text style={{color:"white"}}>
-                     Producto testiado en la plataforma para varios dispositivos y distintas resoluciones siendo
+                     Producto testiado en la plataforma pgitara varios dispositivos y distintas resoluciones siendo
                      totalmente responsivo y adaptativo
                     </Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
-              <Col style={{ display: "flex", justifyContent: "center" }}>
+              <Col style={{ display: "flex", justifyContent: "center" }}data-aos="zoom-out-right">
                 <Card border="info" style={{ width: '20rem', backgroundColor: "black" }}>
                   <Card.Img variant="top" src="c4.jpg" />
                   <Card.Body>
@@ -85,7 +86,7 @@ function page() {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col style={{ display: "flex", justifyContent: "center" }}>
+              <Col style={{ display: "flex", justifyContent: "center" }}data-aos="zoom-out-left">
                 <Card border="info" style={{ width: '20rem', backgroundColor: "black" }}>
                   <Card.Img variant="top" src="menuu.jpg" />
                   <Card.Body>

@@ -15,7 +15,7 @@ export default function Home() {
 
         <Container fuid >
           <Row>
-            <Col style={{ display: "flex" }}  >
+            <Col style={{ display: "flex" }} data-aos="fade-up"  >
               <Card border="primary" style={{ margin: 50, width: '50rem', background: "none" }}>
                 <Card.Body>
                   <h1>Descargate la App</h1>
@@ -34,22 +34,24 @@ export default function Home() {
 
 
           <Row>
-            <Col>
-              <VideoPlayerp1 videoSrc="/avion1.mp4" />
+            <Col data-aos="fade-left">
+           
+              <VideoPlayerp1  videoSrc="/avion1.mp4" />
+             
             </Col>
 
           </Row>
           <Row >
-            <Col style={{ display: "flex", justifyContent: "center" }}>
+            <Col style={{ display: "flex", justifyContent: "center" }}data-aos="zoom-in">
             
-                  <Imgislascard/>
+                  <Imgislascard />
 
 
             </Col>
           </Row>
           <Container>
             <Row xs={1} md={2} className="g-5">
-              <Col style={{ display: "flex", justifyContent: "center" }}>
+              <Col style={{ display: "flex", justifyContent: "center" }} data-aos="zoom-in-right">
                 <Card border="info" style={{ width: '20rem', backgroundColor: "black" }}>
                   <Card.Img variant="top" src="menu1.jpg" />
                   <Card.Body >
@@ -61,7 +63,7 @@ export default function Home() {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col style={{ display: "flex", justifyContent: "center" }}>
+              <Col style={{ display: "flex", justifyContent: "center" }} data-aos="zoom-in-left">
                 <Card border="info" style={{ width: '20rem', backgroundColor: "black" }}>
                   <Card.Img variant="top" src="mapa.jpg" />
                   <Card.Body>
@@ -73,7 +75,7 @@ export default function Home() {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col style={{ display: "flex", justifyContent: "center" }}>
+              <Col style={{ display: "flex", justifyContent: "center" }} data-aos="zoom-in-right">
                 <Card border="info" style={{ width: '20rem', backgroundColor: "black" }}>
                   <Card.Img variant="top" src="barco.jpg" />
                   <Card.Body>
@@ -85,7 +87,7 @@ export default function Home() {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col style={{ display: "flex", justifyContent: "center" }}>
+              <Col style={{ display: "flex", justifyContent: "center" }} data-aos="zoom-in-left">
                 <Card border="info" style={{ width: '20rem', backgroundColor: "black" }}>
                   <Card.Img variant="top" src="quiz11.jpg" />
                   <Card.Body>

@@ -21,20 +21,20 @@ function page() {
         <Container >
 
           <Row>
-            <Col style={{ display: "flex", justifyContent: "center", marginTop: "30px", textAlign: "center", alignItems: "center" }}>
+            <Col style={{ display: "flex", justifyContent: "center", marginTop: "30px", textAlign: "center", alignItems: "center" }} data-aos="fade-down">
               <h2 style={{ color: "lightseagreen", fontFamily:"unset", fontSize: "3rem", fontWeight: "bold" }} >Contenido Interactivo</h2>
             </Col>
           </Row>
 
           <Row style={{ marginTop: "60px" }}>
-            <Col style={{ display: "flex", justifyContent: "center",alignItems:"center" }}>
+            <Col style={{ display: "flex", justifyContent: "center",alignItems:"center" }}data-aos="fade-up-right" data-aos-duration="3000">
               <Card style={{ width: '25rem', background: "none" }}>
                 <Card.Body >
                   <Card.Img variant="top" src="unitylogo.png" />
                 </Card.Body>
               </Card>
             </Col>
-            <Col style={{ display: "flex", justifyContent: "center",alignItems:"center" }}>
+            <Col style={{ display: "flex", justifyContent: "center",alignItems:"center" }}data-aos="fade-up-left" data-aos-duration="3000">
               <Card style={{ width: '25rem', background: "none" }}>
                 <Card.Body >
                   <Card.Img variant="top" src="clogo.png" />
@@ -45,7 +45,7 @@ function page() {
           <Row>
             
             <Col style={{ display: "flex", justifyContent: "center",
-            flexWrap:"nowrap",margin:"30px 30px" }}>
+            flexWrap:"nowrap",margin:"30px 30px" }} data-aos="zoom-in">
               <Badge pill bg="primary">
                Vuforia
               </Badge>{' '}
@@ -73,7 +73,8 @@ function page() {
             </Col>
             
           </Row>
-          <Row>
+          <Row data-aos="fade-up"
+     data-aos-duration="3000">
             <Image
               src="/gamer1.jpg"
               alt="Programacion propia"
@@ -84,12 +85,13 @@ function page() {
 
 
 
-          <Row>
+          <Row data-aos="flip-left" data-aos-duration="3000">
             <HeaderAndFooterExample2 />
-          </Row>
+          </Row >
+          <Row data-aos="zoom-in" data-aos-duration="2000">
 
           <VideoPlayerp1 videoSrc="/barco1.mp4" />
-
+          </Row>
         </Container>
       </div>
     </>
