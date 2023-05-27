@@ -6,6 +6,7 @@ import styles from "../page.module.css"
 import Image from 'next/image'
 import HeaderAndFooterExample from '../components/tarjetaancha'
 import Badge from 'react-bootstrap/Badge';
+import HeaderAndFooterExample2 from '../components/ancha2'
 
 
 
@@ -84,7 +85,7 @@ function page() {
 
 
           <Row>
-            <HeaderAndFooterExample />
+            <HeaderAndFooterExample2 />
           </Row>
 
           <VideoPlayerp1 videoSrc="/barco1.mp4" />

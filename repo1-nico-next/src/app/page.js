@@ -56,7 +56,7 @@ export default function Home() {
                     <Card.Title style={{ color:"#0deff7",fontFamily: "cursive" }}>Digital e Interactivo</Card.Title>
                     <Card.Text>
                       Descargate y experimenta con la App distintas modalidades de juego
-                      con en una experiencia totalmente digital e interactiva sobre las Islas Malvinas
+                      con una experiencia totalmente digital e interactiva sobre las Islas Malvinas
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -77,10 +77,10 @@ export default function Home() {
                 <Card border="info" style={{ width: '20rem', backgroundColor: "black" }}>
                   <Card.Img variant="top" src="barco.jpg" />
                   <Card.Body>
-                    <Card.Title style={{color:"#0deff7",fontFamily: "cursive"}} >Didactico e Intuitivo</Card.Title>
+                    <Card.Title style={{color:"#0deff7",fontFamily: "cursive"}} >Divertido y didactico</Card.Title>
                     <Card.Text>
-                      Descubre acontecimientos que ocurrieron desde los
-                      inicios hasta los tiempos actuales y explora los dias del conflicto de 1982
+                      Diviertete mientras exploras y experimentas a travez de la App
+                      y sus diferentes funcionalidades y modos de juego
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -89,10 +89,10 @@ export default function Home() {
                 <Card border="info" style={{ width: '20rem', backgroundColor: "black" }}>
                   <Card.Img variant="top" src="quiz11.jpg" />
                   <Card.Body>
-                    <Card.Title style={{color:"#0deff7",fontFamily: "cursive"}}>Didactico e Intuitivo</Card.Title>
+                    <Card.Title style={{color:"#0deff7",fontFamily: "cursive"}}>Adaptable y para todos</Card.Title>
                     <Card.Text>
-                      Descubre acontecimientos que ocurrieron desde los
-                      inicios hasta los tiempos actuales y explora los dias del conflicto de 1982
+                      Contenido desarrollado para dispositvos moviles con informacion y canales utiles
+                      para el Veterano de Guerra de Malvinas VGM 
                     </Card.Text>
                   </Card.Body>
                 </Card>

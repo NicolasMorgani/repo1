@@ -6,6 +6,7 @@ import { Col, Container, Row, Card, } from "react-bootstrap"
 
 import Imgislascard from "../components/imgislascard";
 import IndividualIntervalsExample2 from "../components/sliderp2";
+import HeaderAndFooterExample from "../components/tarjetaancha";
 function page() {
   return (
     <div className={styles.containerp2}>
@@ -14,7 +15,7 @@ function page() {
             <Col style={{ display: "flex" }}  >
               <Card border="info" style={{ margin: 50, width: '50rem',background:"none"  }} >
                 <Card.Body>
-                  <h1 style={{color:"#0deff7",fontFamily: "cursive"}}>Descargate la App</h1>
+                  <h1 style={{color:"#0deff7",fontFamily: "cursive",}}>Jugabilidad</h1>
                   <p className={styles.textohero}>
                     Desarrollo Profesional adaptable a cualquier dispositivo movil.
                   </p>
@@ -42,6 +43,10 @@ function page() {
 
             </Col>
           </Row>
+          <Row>
+            <HeaderAndFooterExample />
+          </Row>
+          
           <Container style={{marginTop:"40px"}}>
             <Row xs={1} md={2} className="g-5">
               <Col style={{ display: "flex", justifyContent: "center" }}>
@@ -49,7 +54,7 @@ function page() {
                   <Card.Img variant="top"  src="quiz10.jpg" />
                   <Card.Body >
                     <Card.Title style={{ color:"#0deff7",fontFamily: "cursive" }}>Digital e Interactivo</Card.Title>
-                    <Card.Text>
+                    <Card.Text style={{color:"white"}}>
                       Descargate y experimenta con la App distintas modalidades de juego
                       con en una experiencia totalmente digital e interactiva sobre las Islas Malvinas
                     </Card.Text>
@@ -61,7 +66,7 @@ function page() {
                   <Card.Img variant="top" src="quiz12.jpg" />
                   <Card.Body>
                     <Card.Title style={{color:"#0deff7",fontFamily: "cursive"}}>Didactico e Intuitivo</Card.Title>
-                    <Card.Text>
+                    <Card.Text style={{color:"white"}}>
                       Descubre acontecimientos que ocurrieron desde los
                       inicios hasta los tiempos actuales y explora los dias del conflicto de 1982
                     </Card.Text>
@@ -73,7 +78,7 @@ function page() {
                   <Card.Img variant="top" src="c4.jpg" />
                   <Card.Body>
                     <Card.Title style={{color:"#0deff7",fontFamily: "cursive"}} >Didactico e Intuitivo</Card.Title>
-                    <Card.Text>
+                    <Card.Text style={{color:"white"}}>
                       Descubre acontecimientos que ocurrieron desde los
                       inicios hasta los tiempos actuales y explora los dias del conflicto de 1982
                     </Card.Text>
@@ -85,7 +90,7 @@ function page() {
                   <Card.Img variant="top" src="menuu.jpg" />
                   <Card.Body>
                     <Card.Title style={{color:"#0deff7",fontFamily: "cursive"}}>Didactico e Intuitivo</Card.Title>
-                    <Card.Text>
+                    <Card.Text style={{color:"white"}}>
                       Descubre acontecimientos que ocurrieron desde los
                       inicios hasta los tiempos actuales y explora los dias del conflicto de 1982
                     </Card.Text>
