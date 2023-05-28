@@ -16,9 +16,11 @@ function page() {
     <>
 
       <div className={styles.containerp1} >
-        <Row data-aos="zoom-in" >
+        <Row  >
+          <Col  data-aos="fade-down">
 
           <VideoPlayerp1 videoSrc="/etend1.mp4" />
+          </Col>
         </Row>
 
         <Container >
@@ -30,14 +32,14 @@ function page() {
           </Row>
 
           <Row style={{ marginTop: "60px" }}>
-            <Col style={{ display: "flex", justifyContent: "center", alignItems: "center" }} data-aos="fade-up-right" data-aos-duration="3000">
+            <Col style={{ display: "flex", justifyContent: "center", alignItems: "center" }} data-aos="flip-left" data-aos-duration="1000">
               <Card style={{ width: '25rem', background: "none" }}>
                 <Card.Body >
                   <Card.Img variant="top" src="unitylogo.png" />
                 </Card.Body>
               </Card>
             </Col>
-            <Col style={{ display: "flex", justifyContent: "center", alignItems: "center" }} data-aos="fade-up-left" data-aos-duration="3000">
+            <Col style={{ display: "flex", justifyContent: "center", alignItems: "center" }} data-aos="flip-right" data-aos-duration="1000">
               <Card style={{ width: '25rem', background: "none" }}>
                 <Card.Body >
                   <Card.Img variant="top" src="clogo.png" />
@@ -53,7 +55,7 @@ function page() {
             }} data-aos="zoom-in">
               <Badge  pill bg="primary" data-aos="flip-down"
                     data-aos-duration="2000">
-                Realidad Aumentada
+                VR
               </Badge>{' '}
 
               <Badge pill bg="success" data-aos="flip-down"
@@ -64,13 +66,10 @@ function page() {
                     data-aos-duration="2000">
                 Testing
               </Badge>{' '}
-              <Badge pill bg="warning" text="dark" data-aos="flip-down"
-                    data-aos-duration="2000">
-                JavaScript
-              </Badge>{' '}
+             
               <Badge pill bg="info" data-aos="flip-down"
                     data-aos-duration="2000">
-                InteligenciaArtificial
+                IA
               </Badge>{' '}
 
 

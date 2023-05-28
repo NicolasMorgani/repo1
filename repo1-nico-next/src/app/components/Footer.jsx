@@ -9,7 +9,8 @@ function Footer() {
 
         <Container fluid style={{ backgroundColor: "black" }}>
 
-            <Row style={{ padding: "30px 40px" }}>
+            <Row style={{ padding: "30px 40px" }} data-aos="fade-down"
+                data-aos-duration="2000">
                 <Col >
 
                     <h2 style={{ color: "lightyellow" }}>Operacion Rosario</h2>
@@ -23,7 +24,7 @@ function Footer() {
                         />   </p>
 
                 </Col>
-                <Col>
+                <Col >
                     <Image
                         src="/store.png"
                         width={150}

@@ -15,10 +15,10 @@ export default function Home() {
      
 
 
-        <Container fuid >
+        <Container  >
           <Row>
             <Col style={{ display: "flex" }} data-aos="fade-up"  >
-              <Card border="primary" style={{ margin: 50, width: '50rem', background: "none" }}>
+              <Card border="primary" style={{  width: '50rem', background: "none",marginTop:30 }}>
                 <Card.Body>
                   <h1>Descargate la App</h1>
                   <p className={styles.textohero}>
@@ -30,7 +30,7 @@ export default function Home() {
 
 
           </Row>
-          <Row>
+          <Row style={{  height: "40px" }}>
 
           </Row>
 

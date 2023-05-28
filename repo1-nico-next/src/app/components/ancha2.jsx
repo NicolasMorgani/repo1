@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 
 function HeaderAndFooterExample2() {
   return (
-    <Card className="text-center" bg='primary' style={{  marginTop:"60px",boxShadow:"5px 5px 5px ",fontWeight:"bold"}}>
+    <Card className="text-center" bg='primary' style={{  marginTop:"60px",fontWeight:"bold"}}>
       
       <Card.Body >
         <Card.Title style={{fontWeight:"bold",color:"black"}}>Descarga la App </Card.Title>
