@@ -28,8 +28,8 @@ function Footer() {
                     data-aos-duration="2000">
                     <Image
                         src="/playstore.png"
-                        width={413}
-                        height={122}
+                        width={390}
+                        height={100}
                         alt="playstore"
 
                     />

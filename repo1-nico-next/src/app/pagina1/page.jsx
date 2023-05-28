@@ -47,11 +47,9 @@ function page() {
             <Col style={{ display: "flex", justifyContent: "center",
             flexWrap:"nowrap",margin:"30px 30px" }} data-aos="zoom-in">
               <Badge pill bg="primary">
-               Vuforia
+              Realidad Aumentada
               </Badge>{' '}
-              <Badge pill bg="secondary">
-                Realidad Aumentada
-              </Badge>{' '}
+              
               <Badge pill bg="success">
                 C#
               </Badge>{' '}
@@ -64,12 +62,8 @@ function page() {
               <Badge pill bg="info">
                 InteligenciaArtificial
               </Badge>{' '}
-              <Badge pill bg="light" text="dark">
-                InterfaceUsuario
-              </Badge>{' '}
-              <Badge pill bg="dark">
-                MachineLearning
-              </Badge>
+              
+              
             </Col>
             
           </Row>

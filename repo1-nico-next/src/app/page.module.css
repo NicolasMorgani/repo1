@@ -62,9 +62,9 @@ padding: 0px;
     background-position: 0% 50%;
   }
 }
-@media (max-width:700px) and (min-width:500px) {
+@media (max-width:700px) and (min-width:100px) {
   .textohero {
-     font-size: 50px;
+     font-size: 30px;
   }
 }
 

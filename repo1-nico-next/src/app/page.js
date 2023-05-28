@@ -36,7 +36,7 @@ export default function Home() {
 
 
           <Row>
-            <Col data-aos="fade-left">
+            <Col data-aos="zoom-in-up">
            
               <VideoPlayerp1  videoSrc="/avion1.mp4" />
              
@@ -53,7 +53,7 @@ export default function Home() {
           </Row>
           <Container>
             <Row xs={1} md={2} className="g-5">
-              <Col style={{ display: "flex", justifyContent: "center" }} data-aos="zoom-in-right">
+              <Col style={{ display: "flex", justifyContent: "center" }} data-aos="flip-left">
                 <Card border="info" style={{ width: '20rem', backgroundColor: "black" }}>
                   <Card.Img variant="top" src="menu1.jpg" />
                   <Card.Body >
@@ -65,7 +65,7 @@ export default function Home() {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col style={{ display: "flex", justifyContent: "center" }} data-aos="zoom-in-left">
+              <Col style={{ display: "flex", justifyContent: "center" }} data-aos="flip-right">
                 <Card border="info" style={{ width: '20rem', backgroundColor: "black" }}>
                   <Card.Img variant="top" src="mapa.jpg" />
                   <Card.Body>
@@ -77,7 +77,7 @@ export default function Home() {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col style={{ display: "flex", justifyContent: "center" }} data-aos="zoom-in-right">
+              <Col style={{ display: "flex", justifyContent: "center" }} data-aos="flip-up">
                 <Card border="info" style={{ width: '20rem', backgroundColor: "black" }}>
                   <Card.Img variant="top" src="barco.jpg" />
                   <Card.Body>
@@ -89,7 +89,7 @@ export default function Home() {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col style={{ display: "flex", justifyContent: "center" }} data-aos="zoom-in-left">
+              <Col style={{ display: "flex", justifyContent: "center" }} data-aos="flip-down">
                 <Card border="info" style={{ width: '20rem', backgroundColor: "black" }}>
                   <Card.Img variant="top" src="quiz11.jpg" />
                   <Card.Body>
