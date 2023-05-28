@@ -5,7 +5,7 @@ const VideoPlayerp1 = ({ videoSrc }) => {
   return (
     
     <div className={styles.videoContainer}>
-      <video className={styles.video} controls>
+      <video autoPlay loop className={styles.video} controls>
         <source src={videoSrc} type="video/mp4" />
         Tu navegador no admite la reproducción de video.
       </video>

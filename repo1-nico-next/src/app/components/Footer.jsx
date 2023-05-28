@@ -23,10 +23,9 @@ function Footer() {
                         />   </p>
 
                 </Col>
-                <Col data-aos="flip-down"
-                    data-aos-duration="2000">
+                <Col>
                     <Image
-                        src="/playstore.png"
+                        src="/store.png"
                         width={150}
                         height={60}
                         alt="playstore"

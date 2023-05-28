@@ -16,25 +16,28 @@ function page() {
     <>
 
       <div className={styles.containerp1} >
-        <IndividualIntervalsExample />
+        <Row data-aos="zoom-in" >
+
+          <VideoPlayerp1 videoSrc="/etend1.mp4" />
+        </Row>
 
         <Container >
 
           <Row>
             <Col style={{ display: "flex", justifyContent: "center", marginTop: "30px", textAlign: "center", alignItems: "center" }} data-aos="fade-down">
-              <h2 style={{ color: "lightseagreen", fontFamily:"unset", fontSize: "3rem", fontWeight: "bold" }} >Contenido Interactivo</h2>
+              <h2 style={{ color: "lightseagreen", fontFamily: "unset", fontSize: "3rem", fontWeight: "bold" }} >Contenido Interactivo</h2>
             </Col>
           </Row>
 
           <Row style={{ marginTop: "60px" }}>
-            <Col style={{ display: "flex", justifyContent: "center",alignItems:"center" }}data-aos="fade-up-right" data-aos-duration="3000">
+            <Col style={{ display: "flex", justifyContent: "center", alignItems: "center" }} data-aos="fade-up-right" data-aos-duration="3000">
               <Card style={{ width: '25rem', background: "none" }}>
                 <Card.Body >
                   <Card.Img variant="top" src="unitylogo.png" />
                 </Card.Body>
               </Card>
             </Col>
-            <Col style={{ display: "flex", justifyContent: "center",alignItems:"center" }}data-aos="fade-up-left" data-aos-duration="3000">
+            <Col style={{ display: "flex", justifyContent: "center", alignItems: "center" }} data-aos="fade-up-left" data-aos-duration="3000">
               <Card style={{ width: '25rem', background: "none" }}>
                 <Card.Body >
                   <Card.Img variant="top" src="clogo.png" />
@@ -43,32 +46,39 @@ function page() {
             </Col>
           </Row>
           <Row>
-            
-            <Col style={{ display: "flex", justifyContent: "center",
-            flexWrap:"nowrap",margin:"30px 30px" }} data-aos="zoom-in">
-              <Badge pill bg="primary">
-              Realidad Aumentada
+
+            <Col style={{
+              display: "flex", justifyContent: "center",
+              flexWrap: "nowrap", margin: "30px 30px"
+            }} data-aos="zoom-in">
+              <Badge  pill bg="primary" data-aos="flip-down"
+                    data-aos-duration="2000">
+                Realidad Aumentada
               </Badge>{' '}
-              
-              <Badge pill bg="success">
+
+              <Badge pill bg="success" data-aos="flip-down"
+                    data-aos-duration="2000">
                 C#
               </Badge>{' '}
-              <Badge pill bg="danger">
+              <Badge pill bg="danger"data-aos="flip-down"
+                    data-aos-duration="2000">
                 Testing
               </Badge>{' '}
-              <Badge pill bg="warning" text="dark">
+              <Badge pill bg="warning" text="dark" data-aos="flip-down"
+                    data-aos-duration="2000">
                 JavaScript
               </Badge>{' '}
-              <Badge pill bg="info">
+              <Badge pill bg="info" data-aos="flip-down"
+                    data-aos-duration="2000">
                 InteligenciaArtificial
               </Badge>{' '}
-              
-              
+
+
             </Col>
-            
+
           </Row>
           <Row data-aos="fade-up"
-     data-aos-duration="3000">
+            data-aos-duration="3000">
             <Image
               src="/gamer1.jpg"
               alt="Programacion propia"
@@ -79,14 +89,21 @@ function page() {
 
 
 
-          <Row data-aos="flip-left" data-aos-duration="3000">
+          <Row data-aos="fade-up"
+            data-aos-duration="2000">
             <HeaderAndFooterExample2 />
           </Row >
-          <Row data-aos="zoom-in" data-aos-duration="2000">
+          <Row style={{ height: "50px" }}>
 
-          <VideoPlayerp1 videoSrc="/barco1.mp4" />
-          </Row>
+</Row>
+          
         </Container>
+        <Row data-aos="fade-up"
+            data-aos-duration="1500">
+        <IndividualIntervalsExample />
+        </Row>
+
+
       </div>
     </>
   )
