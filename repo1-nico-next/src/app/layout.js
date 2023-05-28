@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import NavScrollExample from './components/navbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer';
+import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,7 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <head>
       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    
+      <script src="https://unpkg.com/aos@next/dist/aos.js" ></script>
       </head>
       <body >
         <NavScrollExample />
@@ -25,7 +26,7 @@ export default function RootLayout({ children }) {
         {children}
 
         <Footer />
-        <script src="https://unpkg.com/aos@next/dist/aos.js"  />
+        
   <script>
     AOS.init();
   </script>
