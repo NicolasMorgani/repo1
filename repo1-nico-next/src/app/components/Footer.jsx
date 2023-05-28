@@ -23,13 +23,12 @@ function Footer() {
                         />   </p>
 
                 </Col>
-                <Col data-aos="flip-left"
-                    data-aos-easing="ease-out-cubic"
+                <Col data-aos="flip-down"
                     data-aos-duration="2000">
                     <Image
                         src="/playstore.png"
-                        width={390}
-                        height={100}
+                        width={150}
+                        height={60}
                         alt="playstore"
 
                     />
