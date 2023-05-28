@@ -6,11 +6,13 @@ import Image from 'next/image';
 import Imgislascard from "./components/imgislascard";
 
 
+
 export default function Home() {
   return (
     <>
 
       <div className={styles.container} >
+     
 
 
         <Container fuid >
