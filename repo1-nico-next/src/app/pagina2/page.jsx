@@ -25,7 +25,18 @@ function page() {
 
 
         </Row>
-       
+        <Row >
+          <Col style={{ display: "flex", justifyContent: "center" }} data-aos="zoom-in">
+
+            <Card border="info" style={{ width: '25rem', background: "none" }}>
+              <Card.Body style={{ margin: 0, padding: 0 }}>
+                <Card.Img variant="top" src="h1.jpg" />
+              </Card.Body>
+            </Card>
+
+
+          </Col>
+        </Row>
         <Row data-aos="fade-down">
         <HeaderAndFooterExample />
       </Row>
@@ -61,7 +72,7 @@ function page() {
               <Card.Body>
                 <Card.Title style={{ color: "#0deff7", fontFamily: "cursive" }}>Testing</Card.Title>
                 <Card.Text style={{ color: "white" }}>
-                  Producto testiado en la plataforma pgitara varios dispositivos y distintas resoluciones siendo
+                  Producto testiado en la plataforma para varios dispositivos y distintas resoluciones siendo
                   totalmente responsivo y adaptativo
                 </Card.Text>
               </Card.Body>
@@ -85,7 +96,7 @@ function page() {
               <Card.Body>
                 <Card.Title style={{ color: "#0deff7", fontFamily: "cursive" }}>Seguro y Confiable</Card.Title>
                 <Card.Text style={{ color: "white" }}>
-                  App desarrolla bajos los standares de seguridad y proteccion de Datos sin conexion a bases de Datosni ficheros externos
+                  App desarrollada bajos los standares de seguridad y proteccion de Datos sin conexion a bases de Datos ni ficheros externos
                   todo el contenido esta en esta App.
                 </Card.Text>
               </Card.Body>

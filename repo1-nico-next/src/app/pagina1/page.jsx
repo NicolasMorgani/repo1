@@ -7,6 +7,9 @@ import Image from 'next/image'
 import HeaderAndFooterExample from '../components/tarjetaancha'
 import Badge from 'react-bootstrap/Badge';
 import HeaderAndFooterExample2 from '../components/ancha2'
+import NeonText from '../components/textoneon'
+
+
 
 
 
@@ -95,7 +98,7 @@ function page() {
           <Row style={{ height: "50px" }}>
 
 </Row>
-          
+            
         </Container>
         <Row data-aos="fade-up"
             data-aos-duration="1500">
