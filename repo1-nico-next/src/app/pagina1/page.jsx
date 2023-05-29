@@ -7,7 +7,7 @@ import Image from 'next/image'
 import HeaderAndFooterExample from '../components/tarjetaancha'
 import Badge from 'react-bootstrap/Badge';
 import HeaderAndFooterExample2 from '../components/ancha2'
-import NeonText from '../components/textoneon'
+
 
 
 
