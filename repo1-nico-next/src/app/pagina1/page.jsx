@@ -104,6 +104,7 @@ function page() {
             data-aos-duration="1500">
         <IndividualIntervalsExample />
         </Row>
+       
 
 
       </div>

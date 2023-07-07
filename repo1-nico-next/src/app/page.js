@@ -113,7 +113,7 @@ export default function Home() {
           <Row style={{ height: "70px" }}>
 
           </Row>
-            <Row className="justify-content-center " style={{alignItems:"center"}}>
+            <Row className="justify-content-center " style={{alignItems:"center"}} data-aos="fade-down">
               
                 <Card style={{ width: '10rem',background:"none" }}>
                   <Card.Img variant="top" src="React.png" />
@@ -121,7 +121,7 @@ export default function Home() {
              
              
               <Card style={{ width: '20rem',background:"none"}}>
-                  <Card.Img variant="top" src="Nextblanco.png" />
+                  <Card.Img variant="top" src="nex.png" />
                 </Card>
                 <Card style={{ width: '10rem',background:"none" }}>
                   <Card.Img variant="top" src="Visual_Studio_Cod.png" />
