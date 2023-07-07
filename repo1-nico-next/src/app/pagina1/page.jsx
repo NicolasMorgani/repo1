@@ -38,7 +38,7 @@ function page() {
             <Col style={{ display: "flex", justifyContent: "center", alignItems: "center" }} data-aos="flip-left" data-aos-duration="1000">
               <Card style={{ width: '25rem', background: "none" }}>
                 <Card.Body >
-                  <Card.Img variant="top" src="unitylogo.png" />
+                  <Card.Img variant="top" src="unity2.png" />
                 </Card.Body>
               </Card>
             </Col>
