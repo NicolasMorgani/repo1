@@ -4,10 +4,16 @@ import styles from "./page.module.css"
 import { Col, Container, Row, Card, } from "react-bootstrap"
 import Image from 'next/image';
 import Imgislascard from "./components/imgislascard";
+import Link from "next/link";
 
+export const metadata = {
+  title: 'Operacion Rosario',
+  description: 'App Digital e Interactiva sobre las Islas Malvinas',
+}
 
 
 export default function Home() {
+ 
   return (
     <>
 
@@ -54,7 +60,8 @@ export default function Home() {
           <Container>
             <Row xs={1} md={2} className="g-5">
               <Col style={{ display: "flex", justifyContent: "center" }} data-aos="flip-left">
-                <Card border="info" style={{ width: '20rem', backgroundColor: "black" }}>
+               
+                <Card border="info" style={{ width: '20rem', backgroundColor: "black" }} >
                   <Card.Img variant="top" src="menu1.jpg" />
                   <Card.Body >
                     <Card.Title style={{ color: "#0deff7", fontFamily: "cursive" }}>Digital e Interactivo</Card.Title>
@@ -64,6 +71,7 @@ export default function Home() {
                     </Card.Text>
                   </Card.Body>
                 </Card>
+               
               </Col>
               <Col style={{ display: "flex", justifyContent: "center" }} data-aos="flip-right">
                 <Card border="info" style={{ width: '20rem', backgroundColor: "black" }}>

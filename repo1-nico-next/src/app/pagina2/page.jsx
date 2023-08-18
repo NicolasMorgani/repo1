@@ -1,22 +1,32 @@
 
 "use client"
-
+import {Rubik_Wet_Paint,Luckiest_Guy } from 'next/font/google'
 import styles from "../page.module.css"
 import { Col, Container, Row, Card, } from "react-bootstrap"
 import VideoPlayerp1 from '../components/videoP1'
-import Imgislascard from "../components/imgislascard";
 import IndividualIntervalsExample2 from "../components/sliderp2";
 import HeaderAndFooterExample from "../components/tarjetaancha";
+
+const lucki = Luckiest_Guy({ subsets: ['latin'], weight: ['400'] })
+
+
 function page() {
+   
   return (
+    
     <div className={styles.containerp2}>
+         
+        
       <Container fuid >
+      
+
         <Row>
+        
           <Col style={{ display: "flex" }} data-aos="zoom-in-down"  >
             <Card border="info" style={{ margin: 50, width: '50rem', background: "none" }} >
               <Card.Body>
                 <h1 style={{ color: "#0deff7", fontFamily: "cursive", }}>Jugabilidad</h1>
-                <p className={styles.textohero}>
+                <p className={lucki.className} style={{color:"white", fontSize:"4rem"}}>
                   Desarrollo Profesional adaptable a cualquier dispositivo movil.
                 </p>
               </Card.Body>
@@ -45,7 +55,7 @@ function page() {
       </Row>
       <Row data-aos="zoom-in"  >
 
-        <VideoPlayerp1 videoSrc="/barc1.mp4" />
+        <VideoPlayerp1  videoSrc="/barc1.mp4" />
       </Row>
 
       

@@ -10,7 +10,9 @@ import HeaderAndFooterExample2 from '../components/ancha2'
 
 
 
-
+export const metadata = {
+  title: 'Contenido - Operacion Rosario',
+}
 
 
 
