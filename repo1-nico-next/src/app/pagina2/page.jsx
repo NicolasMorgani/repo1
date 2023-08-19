@@ -1,6 +1,6 @@
 
 "use client"
-import {Rubik_Wet_Paint,Luckiest_Guy } from 'next/font/google'
+import {Luckiest_Guy } from 'next/font/google'
 import styles from "../page.module.css"
 import { Col, Container, Row, Card, } from "react-bootstrap"
 import VideoPlayerp1 from '../components/videoP1'

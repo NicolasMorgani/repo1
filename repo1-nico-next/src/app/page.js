@@ -2,14 +2,9 @@
 import VideoPlayerp1 from "./components/videoP1"
 import styles from "./page.module.css"
 import { Col, Container, Row, Card, } from "react-bootstrap"
-import Image from 'next/image';
 import Imgislascard from "./components/imgislascard";
-import Link from "next/link";
 
-export const metadata = {
-  title: 'Operacion Rosario',
-  description: 'App Digital e Interactiva sobre las Islas Malvinas',
-}
+
 
 
 export default function Home() {
