@@ -4,9 +4,9 @@ import IndividualIntervalsExample from '../components/sliderPagina'
 import VideoPlayerp1 from '../components/videoP1'
 import styles from "../page.module.css"
 import Image from 'next/image'
-import HeaderAndFooterExample from '../components/tarjetaancha'
 import Badge from 'react-bootstrap/Badge';
 import HeaderAndFooterExample2 from '../components/ancha2'
+
 
 
 

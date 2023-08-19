@@ -1,6 +1,6 @@
 
 
-import { Inter, } from 'next/font/google'
+import { Inter } from 'next/font/google'
 import NavScrollExample from './components/navbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer';

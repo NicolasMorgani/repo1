@@ -1,4 +1,4 @@
-
+"use client"
 import styles from './VideoPlayer.module.css';
 
 const VideoPlayerp1 = ({ videoSrc }) => {
