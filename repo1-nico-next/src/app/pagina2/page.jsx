@@ -7,7 +7,7 @@ import VideoPlayerp1 from '../components/videoP1'
 import IndividualIntervalsExample2 from "../components/sliderp2";
 import HeaderAndFooterExample from "../components/tarjetaancha";
 
-const lucki = Luckiest_Guy({ subsets: ['latin'], weight: ['400'] })
+
 
 
 function page() {
@@ -26,7 +26,7 @@ function page() {
             <Card border="info" style={{ margin: 50, width: '50rem', background: "none" }} >
               <Card.Body>
                 <h1 style={{ color: "#0deff7", fontFamily: "cursive", }}>Jugabilidad</h1>
-                <p className={lucki.className} style={{color:"white", fontSize:"4rem"}}>
+                <p className={styles.textohero} style={{color:"white", fontSize:"4rem"}}>
                   Desarrollo Profesional adaptable a cualquier dispositivo movil.
                 </p>
               </Card.Body>
