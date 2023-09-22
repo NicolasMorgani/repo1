@@ -26,7 +26,7 @@ function page() {
             <Card border="info" style={{ margin: 50, width: '50rem', background: "none" }} >
               <Card.Body>
                 <h1 style={{ color: "#0deff7", fontFamily: "cursive", }}>Jugabilidad</h1>
-                <p className={styles.textohero} style={{color:"white", fontSize:"4rem"}}>
+                <p className={styles.textohero} style={{color:"white"}}>
                   Desarrollo Profesional adaptable a cualquier dispositivo movil.
                 </p>
               </Card.Body>
