@@ -19,20 +19,29 @@ function page() {
     <>
 
       <div className={styles.containerp1} >
+      <Row style={{ height: "70px" }}>
+
+      </Row>
         <Row  >
           <Col  data-aos="fade-down">
 
           <VideoPlayerp1 videoSrc="/etend1.mp4" />
           </Col>
         </Row>
+        <Row style={{ height: "100px" }}>
+
+      </Row>
 
         <Container >
-
+          
           <Row>
             <Col style={{ display: "flex", justifyContent: "center", marginTop: "30px", textAlign: "center", alignItems: "center" }} data-aos="fade-down">
               <h2 style={{ color: "lightseagreen", fontFamily: "unset", fontSize: "3rem", fontWeight: "bold" }} >Contenido Interactivo</h2>
             </Col>
           </Row>
+          <Row style={{ height: "170px" }}>
+
+      </Row>
 
           <Row style={{ marginTop: "60px" }}>
             <Col style={{ display: "flex", justifyContent: "center", alignItems: "center" }} data-aos="flip-left" data-aos-duration="1000">
@@ -42,6 +51,9 @@ function page() {
                 </Card.Body>
               </Card>
             </Col>
+            <Row style={{ height: "100px" }}>
+
+      </Row>
             <Col style={{ display: "flex", justifyContent: "center", alignItems: "center" }} data-aos="flip-right" data-aos-duration="1000">
               <Card style={{ width: '25rem', background: "none" }}>
                 <Card.Body >
@@ -51,7 +63,9 @@ function page() {
             </Col>
           </Row>
           <Row>
+          <Row style={{ height: "100px" }}>
 
+</Row>
             <Col style={{
               display: "flex", justifyContent: "center",
               flexWrap: "nowrap", margin: "30px 30px"
@@ -79,6 +93,9 @@ function page() {
             </Col>
 
           </Row>
+          <Row style={{ height: "170px" }}>
+
+      </Row>
           <Row data-aos="fade-up"
             data-aos-duration="3000">
             <Image
@@ -89,13 +106,15 @@ function page() {
             />
           </Row>
 
+          <Row style={{ height: "100px" }}>
 
+</Row>
 
           <Row data-aos="fade-up"
             data-aos-duration="2000">
             <HeaderAndFooterExample2 />
           </Row >
-          <Row style={{ height: "50px" }}>
+          <Row style={{ height: "150px" }}>
 
 </Row>
             
@@ -106,7 +125,9 @@ function page() {
         </Row>
        
 
+        <Row style={{ height: "170px" }}>
 
+</Row>
       </div>
     </>
   )

@@ -18,8 +18,8 @@ export default function Home() {
 
         <Container  >
           <Row>
-            <Col style={{ display: "flex" }} data-aos="fade-up"  >
-              <Card border="primary" style={{ width: '50rem', background: "none", marginTop: 30 }}>
+            <Col style={{ display: "flex" , marginTop:"100px"}} data-aos="fade-up"  >
+              <Card border="primary" style={{ width: '150rem', background: "none", marginTop: 30 }}>
                 <Card.Body>
                   <h1>Descargate la App</h1>
                   <p className={styles.textohero}>
@@ -31,7 +31,7 @@ export default function Home() {
 
 
           </Row>
-          <Row style={{ height: "40px" }}>
+          <Row style={{ height: "260px" }}>
 
           </Row>
 
@@ -44,6 +44,9 @@ export default function Home() {
             </Col>
 
           </Row>
+          <Row style={{ height: "260px" }}>
+
+          </Row>
           <Row >
             <Col style={{ display: "flex", justifyContent: "center" }} data-aos="zoom-in">
 
@@ -51,6 +54,9 @@ export default function Home() {
 
 
             </Col>
+          </Row>
+          <Row style={{ height: "100px" }}>
+
           </Row>
           <Container>
             <Row xs={1} md={2} className="g-5">
@@ -113,7 +119,7 @@ export default function Home() {
               <h2 style={{ color: "lightseagreen", fontFamily: "unset", fontSize: "3rem", fontWeight: "bold" }} >Desarrollamos la Web</h2>
             </Col>
           </Row>
-          <Row style={{ height: "70px" }}>
+          <Row style={{ height: "170px" }}>
 
           </Row>
             <Row className="justify-content-center " style={{alignItems:"center"}} data-aos="fade-down">
@@ -121,17 +127,29 @@ export default function Home() {
                 <Card style={{ width: '10rem',background:"none" }}>
                   <Card.Img variant="top" src="React.png" />
                 </Card>
+                <Row style={{ height: "70px" }}>
+
+</Row>
              
              
               <Card style={{ width: '20rem',background:"none"}}>
                   <Card.Img variant="top" src="nex.png" />
                 </Card>
+                <Row style={{ height: "70px" }}>
+
+</Row>
                 <Card style={{ width: '10rem',background:"none" }}>
                   <Card.Img variant="top" src="Visual_Studio_Cod.png" />
                 </Card>
+                <Row style={{ height: "70px" }}>
+
+</Row>
                 <Card style={{ width: '10rem',background:"none" }}>
                   <Card.Img variant="top" src="Bootstrap.png" />
                 </Card>
+                <Row style={{ height: "70px" }}>
+
+</Row>
            </Row>
           
            

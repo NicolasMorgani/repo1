@@ -35,6 +35,9 @@ function page() {
 
 
         </Row>
+        <Row style={{ height: "100px" }}>
+
+      </Row>
         <Row >
           <Col style={{ display: "flex", justifyContent: "center" }} data-aos="zoom-in">
 
@@ -47,10 +50,13 @@ function page() {
 
           </Col>
         </Row>
+        <Row style={{ height: "100px" }}>
+
+      </Row>
         <Row data-aos="fade-down">
         <HeaderAndFooterExample />
       </Row>
-      <Row style={{ height: "50px" }}>
+      <Row style={{ height: "150px" }}>
 
       </Row>
       <Row data-aos="zoom-in"  >
@@ -60,7 +66,9 @@ function page() {
 
       
       
+      <Row style={{ height: "170px" }}>
 
+</Row>
 
       <Container style={{ marginTop: "40px" }}>
         <Row xs={1} md={2} className="g-5">
@@ -116,8 +124,11 @@ function page() {
         <Row style={{ height: "50px" }}>
 
         </Row>
+        <Row style={{ height: "170px" }}>
+
+      </Row>
         <IndividualIntervalsExample2 />
-        <Row style={{ height: "50px" }}>
+        <Row style={{ height: "150px" }}>
 
         </Row>
       </Container>
